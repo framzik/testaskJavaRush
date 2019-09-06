@@ -1,37 +1,50 @@
 package com.space.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.persistence.*;
 import java.util.Date;
+import java.util.Objects;
+
+@Entity
+@Table(name = "ship")
 
 public class Ship {
-    private Long id;                // ID корабля
-    private String name;            // Название корабля (до 50 знаков включительно)
-    private String planet;          // Планета пребывания (до 50 знаков включительно)
-    private ShipType shipType;      // Тип корабля
-    private Date prodDate;          // Дата выпуска.    Диапазон значений года 2800..3019 включительно
-    private Boolean isUsed = false;         // Использованный / новый
-    private Double speed;           //Максимальная скорость корабля. Диапазон значений 0,01..0,99 включительно. Используй математическое округление до сотых.
-    private Integer crewSize;       // Количество членов экипажа. Диапазон значений1..9999 включительно.
 
-    private Double rating = (double) Math.round( (getSpeed() * 80 * getK() ) /
-            (3019 - getProdDate().getYear()+1))/10;          //Рейтинг корабля. Используй математическое    округление до сотых
+    @Id
+    @Column(name="id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;                    //ID корабля
 
-    public Ship(String name, String planet, ShipType shipType, Double speed, Integer crewSize) {
-        this.name = name;
-        this.planet = planet;
-        this.shipType = shipType;
-        this.prodDate = prodDate;
-        this.speed = speed;
-        this.crewSize = crewSize;
+    @Column(name = "name")
+    private String name;                // Название корабля (до 50 знаков включительно)
 
-    }
+    @Column(name = "planet")
+    private String planet;              // Планета пребывания (до 50 знаков включительно)
 
+    @Column(name = "shipType")
+    private ShipType shipType;          // Тип корабля
+
+    @Column(name = "prodDate")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date prodDate;              // Дата выпуска.  Диапазон значений года 2800..3019 включительно
+
+    @Column(name = "isUsed")
+    private Boolean isUsed = false;     // Использованный / новый
+
+    @Column(name = "speed")
+    private Double speed;               // Максимальная скорость корабля. Диапазон значений 0,01..0,99 включительно. Используй математическое
+    // округление до сотых
+
+    @Column(name = "crewSize")
+    private Integer crewSize;           // Количество членов экипажа. Диапазон значений
+    // 1..9999 включительно.
+
+    @Column(name = "rating")
+    private Double rating;              // Рейтинг корабля. Используй математическое
+    //    округление до сотых.
     private Double k;
 
-    public Double getK(){
-        if(getUsed()) k= 0.5;
-        k= 1.0;
-        return k;
-    }
 
     public Long getId() {
         return id;
@@ -66,11 +79,12 @@ public class Ship {
     }
 
     public Double getRating() {
+        if(isUsed) k =0.5;
+        else k= 1.0;
+        rating =100*(80*speed*k)/(3019-prodDate.getYear()+1);
+        rating = (double)Math.round (rating);
+        rating = rating/100;
         return rating;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public void setName(String name) {
@@ -99,5 +113,41 @@ public class Ship {
 
     public void setCrewSize(Integer crewSize) {
         this.crewSize = crewSize;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Ship ship = (Ship) o;
+        return Objects.equals(id, ship.id) &&
+                Objects.equals(name, ship.name) &&
+                Objects.equals(planet, ship.planet) &&
+                shipType == ship.shipType &&
+                Objects.equals(prodDate, ship.prodDate) &&
+                Objects.equals(isUsed, ship.isUsed) &&
+                Objects.equals(speed, ship.speed) &&
+                Objects.equals(crewSize, ship.crewSize) &&
+                Objects.equals(rating, ship.rating);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, planet, shipType, prodDate, isUsed, speed, crewSize, rating);
+    }
+
+    @Override
+    public String toString() {
+        return "Ship{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", planet='" + planet + '\'' +
+                ", shipType=" + shipType +
+                ", prodDate=" + prodDate +
+                ", isUsed=" + isUsed +
+                ", speed=" + speed +
+                ", crewSize=" + crewSize +
+                ", rating=" + rating +
+                '}';
     }
 }
