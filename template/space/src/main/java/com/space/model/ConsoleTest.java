@@ -1,13 +1,33 @@
 package com.space.model;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.Date;
 
 public class ConsoleTest {
-    public  static void main(String args[]) throws IOException {
-        Ship ship = new Ship("Vasya","Earth",ShipType.MILITARY,0.55,12);
-        ship.setProdDate(new Date());
-        System.out.println(ship.getK());
-        System.out.println(ship.getRating());
+
+    private static ResultSet rs;
+
+    public  static void main(String args[]) throws Exception {
+    String user = "root";
+    String pass = "root";
+    String url = "jdbc:mysql://localhost:3306/cosmoport?serverTimezone=UTC";
+    Class.forName("com.mysql.cj.jdbc.Driver");
+
+    String query = "seleqt count(*) from ship";
+    try(Connection con = DriverManager.getConnection(url,user,pass);
+        Statement stm  = con.createStatement()){
+        System.out.println("We are connected!");
+        ResultSet resultSet = stm.executeQuery("select * from ship");
+        while  (resultSet.next()){
+            System.out.println(resultSet.getInt(1)+" "+resultSet.getString(2)+" " +resultSet.getString(3)+
+                    " " + resultSet.getString(4) +" " +resultSet.getDate(5)
+            );
+
+        }
+    }
     }
 }
