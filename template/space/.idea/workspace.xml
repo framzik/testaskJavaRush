@@ -7,18 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b786c70-23c8-451e-8ee9-92f95e8f1592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/decda43d-4ad5-4b02-9e48-04fcd7fcf924.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/space/repository/ShipRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/space/repository/ShipRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/model/ConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/space/model/ConsoleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/space/model/ConsoleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/space/model/ConsoleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/testaskJavaRush.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/space/controller/ShipsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/space/repository/ShipsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmoport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cosmoport.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/space/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/model/ConsoleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/model/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/space/model/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/repository/ShipRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/repository/ShipRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/space/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/space/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/space/model/ConsoleTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/space/model/Ship.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/space/model/Ship.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/space/repository/ShipRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/space/repository/ShipRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/WEB-INF/classes/com/space/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/WEB-INF/classes/com/space/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/WEB-INF/classes/com/space/model/ConsoleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/WEB-INF/classes/com/space/model/Ship.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/WEB-INF/classes/com/space/model/Ship.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +78,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -106,9 +116,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaRushTestTask/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.space.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ДмАлИвАн\Desktop\git\testaskJavaRush\template\space\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\ДмАлИвАн\Desktop\git\testaskJavaRush\template\space\src\main\java\com\space" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsoleTest">
+  <component name="RunManager" selected="Tomcat Server.JavaTommy">
     <configuration name="ConsoleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.space.model.ConsoleTest" />
       <module name="cosmoport" />
@@ -219,6 +239,16 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -234,7 +264,10 @@
       <workItem from="1567835050031" duration="4771000" />
       <workItem from="1567926542585" duration="369000" />
       <workItem from="1567931978830" duration="4042000" />
-      <workItem from="1567953505909" duration="2571000" />
+      <workItem from="1567953505909" duration="2850000" />
+      <workItem from="1568390357758" duration="849000" />
+      <workItem from="1568533074740" duration="2192000" />
+      <workItem from="1568535424251" duration="14888000" />
     </task>
     <task id="LOCAL-00001" summary="Изменен для работы с таблицей">
       <created>1567788271477</created>
@@ -243,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567788271477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working..">
+      <created>1567956324432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567956324432</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -273,7 +313,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Изменен для работы с таблицей" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменен для работы с таблицей" />
+    <MESSAGE value="working.." />
+    <option name="LAST_COMMIT_MESSAGE" value="working.." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
