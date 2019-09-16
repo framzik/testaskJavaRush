@@ -8,5 +8,5 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import java.util.List;
 
 
-public interface ShipsRepository extends JpaRepository<Ship, Long>, JpaSpecificationExecutor<Ship> {
+public interface ShipRepository extends JpaRepository<Ship, Long>, JpaSpecificationExecutor<Ship> {
 }

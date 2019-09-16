@@ -6,27 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b786c70-23c8-451e-8ee9-92f95e8f1592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/testaskJavaRush.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/space/controller/ShipsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/space/repository/ShipsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7b786c70-23c8-451e-8ee9-92f95e8f1592" name="Default Changelist" comment="rebalans">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmoport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cosmoport.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/space/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/model/ConsoleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/model/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/space/model/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/repository/ShipRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/repository/ShipRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/space/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/space/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/space/model/ConsoleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/controller/ShipsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/model/Ship.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/repository/ShipsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/space/repository/ShipRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/service/ShipService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/space/service/ShipServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/space/model/Ship.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/space/model/Ship.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/space/repository/ShipRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/space/repository/ShipRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/WEB-INF/classes/com/space/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/WEB-INF/classes/com/space/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/WEB-INF/classes/com/space/model/ConsoleTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/WEB-INF/classes/com/space/model/Ship.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cosmoport-1.0-SNAPSHOT/WEB-INF/classes/com/space/model/Ship.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,23 +96,29 @@
     </option>
   </component>
   <component name="ProjectId" id="1QXzrHoen2wVGtvwM02ZjNTYIOb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaRushTestTask/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/space/service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.space.controller" />
+      <recent name="com.space.service" />
+      <recent name="com.space.model" />
       <recent name="com.space.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ДмАлИвАн\Desktop\git\testaskJavaRush\template\space\src\main\java\com\space\service" />
       <recent name="C:\Users\ДмАлИвАн\Desktop\git\testaskJavaRush\template\space\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\ДмАлИвАн\Desktop\git\testaskJavaRush\template\space\src\main\java\com\space" />
     </key>
@@ -143,15 +136,77 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.JavaTommy">
-    <configuration name="ConsoleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.space.model.ConsoleTest" />
+    <configuration name="DeleteShipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cosmoport" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.space.model.*" />
+          <option name="PATTERN" value="com.space.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.space.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.space.controller.DeleteShipTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cosmoport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.space.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.space.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.space.controller.GetAllTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cosmoport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.space.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.space.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.space.controller.GetCountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetShipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cosmoport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.space.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.space.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.space.controller.GetShipTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateShipTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="cosmoport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.space.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.space.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.space.controller.UpdateShipTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -230,12 +285,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConsoleTest" />
+      <item itemvalue="JUnit.UpdateShipTest" />
+      <item itemvalue="JUnit.DeleteShipTest" />
+      <item itemvalue="JUnit.GetAllTest" />
+      <item itemvalue="JUnit.GetCountTest" />
+      <item itemvalue="JUnit.GetShipTest" />
       <item itemvalue="Tomcat Server.JavaTommy" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsoleTest" />
+        <item itemvalue="JUnit.GetShipTest" />
+        <item itemvalue="JUnit.GetCountTest" />
+        <item itemvalue="JUnit.GetAllTest" />
+        <item itemvalue="JUnit.DeleteShipTest" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +330,8 @@
       <workItem from="1568390357758" duration="849000" />
       <workItem from="1568533074740" duration="2192000" />
       <workItem from="1568535424251" duration="14888000" />
+      <workItem from="1568569843116" duration="1245000" />
+      <workItem from="1568651206824" duration="8231000" />
     </task>
     <task id="LOCAL-00001" summary="Изменен для работы с таблицей">
       <created>1567788271477</created>
@@ -283,7 +347,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567956324432</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rebalans">
+      <created>1568569968327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568569968327</updated>
+    </task>
+    <task id="LOCAL-00004" summary="rebalans">
+      <created>1568570266303</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568570266303</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -314,7 +392,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Изменен для работы с таблицей" />
     <MESSAGE value="working.." />
-    <option name="LAST_COMMIT_MESSAGE" value="working.." />
+    <MESSAGE value="rebalans" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebalans" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
